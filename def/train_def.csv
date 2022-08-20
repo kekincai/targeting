@@ -1,0 +1,19 @@
+﻿カラム,ヘッダ名称,データ型,説明,use,name,class,levels
+0,id,int,行の通し番号,FALSE,行番号,character,
+1,age,int,年齢,TRUE,年齢,int,
+2,job,varchar,職種,TRUE,職種,factor,
+3,marital,varchar,未婚/既婚,TRUE,結婚,factor,
+4,education,varchar,教育水準,TRUE,教育水準,factor,
+5,default,varchar,"債務不履行があるか（yes, no）",TRUE,債務不履行,factor,
+6,balance,int,年間平均残高（€）,TRUE,年間平均残高,int,
+7,housing,varchar,"住宅ローン（yes, no）",TRUE,住宅ローン,factor,
+8,loan,varchar,"個人ローン（yes, no）",TRUE,個人ローン,factor,
+9,contact,varchar,連絡方法,TRUE,連絡方法,factor,
+10,day,int,最終接触日,TRUE,最終接触日,int,
+11,month,char,最終接触月,TRUE,最終接触月,factor,"jan=1, feb=2, mar=3, apr=4, may=5, jun=6, jul=7, aug=8, sep=9, oct=10, nov=11"
+12,duration,int,最終接触時間（秒）,TRUE,最終接触時間,int,
+13,campaign,int,現キャンペーンにおける接触回数,TRUE,接触回数,int,
+14,pdays,int,経過日数：前キャンペーン接触後の日数,TRUE,経過日数,int,
+15,previous,int,接触実績：現キャンペーン以前までに顧客に接触した回数,TRUE,接触実績,int,
+16,poutcome,varchar,前回のキャンペーンの成果,TRUE,前回のキャンペーンの成果,factor,
+17,y,boolean,"定額預金申し込み有無（1:有り, 0:無し）",TRUE,定額預金申し込み有無,factor,"1=有り, 0=無し"
